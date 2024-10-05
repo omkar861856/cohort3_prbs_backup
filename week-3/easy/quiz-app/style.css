@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #quiz-box{
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+body{
+    background-color: rgb(250, 232, 250);
+}
+
+#quiz-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 3rem;
+}
+
+#question{
+    text-align: center;
+}
+
+form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}

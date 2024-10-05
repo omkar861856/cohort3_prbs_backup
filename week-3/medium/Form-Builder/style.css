@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.box{
+    width: 98%;
+    border: 2px solid black;
+    margin: 0 auto
+}
+
+#previewButton{
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}

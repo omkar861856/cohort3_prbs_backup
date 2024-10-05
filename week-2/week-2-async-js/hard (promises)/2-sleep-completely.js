@@ -5,6 +5,13 @@
  */
 
 function sleep(milliseconds) {
+  const now = Date.now();
+
+  while (Date.now() - now < milliseconds) {}
+
+  console.log("after 3 seconds");
 }
 
-module.exports = sleep;
+sleep(3000);
+
+// completed

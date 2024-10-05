@@ -14,6 +14,10 @@ Your task is to design and implement an application that display Pokémon Cards.
 
 **Note**: here id is a number. for example `https://pokeapi.co/api/v2/pokemon/1`
 
+## somewhat complete
+
+## complete more...
+
 
 
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #red{
+            color: red;
+        }
+        #green{
+            color:green
+        }
+        #blue{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Completed</h1>
+    
+    <div>
+        <button onclick="changeColor('red')" id="red"> Red </button>
+        <button onclick="changeColor('green')" id="green"> Green </button>
+        <button onclick="changeColor('blue')" id="blue"> Blue </button>
+    </div>
+
+    <script>
+
+     function changeColor(color) {
+            document.body.style.backgroundColor = color;
+            console.log(`Color changed to ${color}`);
+        }
+
+    </script>
+</body>
+</html>

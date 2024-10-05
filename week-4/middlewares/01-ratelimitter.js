@@ -1,6 +1,6 @@
 // You have to create a middleware for rate limiting a users request based on their username passed in the header
 
-const express = require('express');
+import express from 'express';
 const app = express();
 
 // Your task is to create a global middleware (app.use) which will
@@ -24,4 +24,4 @@ app.post('/user', function(req, res) {
   res.status(200).json({ msg: 'created dummy user' });
 });
 
-module.exports = app;
+export default app;
